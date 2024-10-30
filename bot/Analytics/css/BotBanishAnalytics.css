@@ -1,0 +1,165 @@
+	table {
+		width: 100%;
+		margin: auto;
+		padding: 10px;
+	    border-spacing: 0px;
+		border-collapse: separate;
+		background-color: white;
+		text-align: left;
+	}
+	
+	#heading {
+		width: 100%;
+		margin: auto;
+		padding: 10px;
+	    border-spacing: 0px;
+		border-collapse: separate;
+		background-color: white;
+		text-align: left;
+	}
+
+	#heading tr {
+		font-family: Verdana, Arial, Helvetica,	sans-serif;
+		font-size: 8pt;
+		font-weight: bold;
+	}
+
+	#heading td {
+		font-family: Verdana, Arial, Helvetica,	sans-serif;
+		font-size: 8pt;
+		font-weight: bold;
+	}
+
+	#heading tt {
+		font-family: Verdana, Arial, Helvetica,	sans-serif;
+		font-size: 13pt;
+		font-weight: bold;
+	}
+
+	#header {
+		width: 100%;
+		margin: auto;
+		padding: 10px;
+	    border-spacing: 0px;
+		border-collapse: separate;
+		text-align: left;
+		background-color: #E6E6FF;
+	}
+
+	#topbar {
+		width: 100%;
+		margin: auto;
+		background-color: white;
+		text-align: center;
+		font-size: 8pt;
+		padding: 1px;
+	    border-spacing: 0px;
+		border-collapse: separate;
+		font-family: Verdana, Arial, Helvetica,	sans-serif;
+		font-weight: bold;
+		background-color: #E6E6FF
+	}
+
+	#topbar div {
+		text-align: center;
+	}
+	
+	A:visited {
+		text-decoration: none;
+		color: //000000;
+	}
+
+	A:link {
+		text-decoration: none;
+		color: //000000;
+	}
+
+	A:active {
+		text-decoration: none;
+		color: //000000;
+	}
+
+	A:hover {
+		text-decoration: underline;
+		color:red;
+	}
+
+	#chart {
+		width: 100%;
+		margin: auto;
+		background-color: #F4F4FF;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 8pt;
+		padding: 0px;
+	    border-spacing: 0px;
+		border-collapse: separate;
+	}
+
+	#chart td {
+		width: 3%;
+		align-content: center;
+		vertical-align: text-bottom;
+		text-align: center;
+	}
+
+	#weekday tr {
+		align-content: center;
+		text-align: center;
+	}
+	
+	#weekday td {
+		width: 15%;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 10pt;
+		text-align: left;
+	}
+	
+	#status td {
+		width: 34%;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 10pt;
+	}
+	
+	.collapsible {
+		font-family: Verdana, Arial, Helvetica,	sans-serif;
+		color: black;
+		cursor: pointer;
+		width: 100%;
+		border-style: solid;
+		border-color: black;
+		border-width: thin;
+		font-size: 13pt;
+		margin: auto;
+		padding: 10px;
+		border-spacing: 0px;
+		border-collapse: separate;
+		background-color: #E6E6FF;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.active, .collapsible:hover {
+		background-color: #E6E6FF;
+	}
+
+	.content {
+		font-family: Arial, Helvetica,	sans-serif;
+		padding: 0px;
+		display: none;
+		overflow: hidden;
+		background-color: #f1f1f1;
+		text-align: left;
+		font-size: 8pt;
+	}
+	
+	.collapsible:after {
+		content: '\02795'; /* Unicode character for "plus" sign (+) */
+		font-size: 13px;
+		color: white;
+		float: right;
+		margin-left: 5px;
+}
+
+	.active:after {
+	  content: "\2796"; /* Unicode character for "minus" sign (-) */
+	}
